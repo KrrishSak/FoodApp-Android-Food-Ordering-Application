@@ -1,0 +1,144 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFFFFFF"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/r9dc6hcv4gf"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/r4ld4mib284i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipChildren="false"
+                android:clipToPadding="false">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ru7g2zrc206m"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="119dp"
+                        android:background="#1E1E1E">
+
+                        <LinearLayout
+                            android:id="@+id/r2thtclrp02h"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="34dp"
+                            android:layout_marginBottom="51dp"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:background="@drawable/back"
+                                android:src="@drawable/back" />
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <ImageView
+                                android:id="@+id/rzkgeem8lgm"
+                                android:layout_width="134dp"
+                                android:layout_height="117dp"
+                                android:layout_marginTop="14dp"
+                                android:scaleType="fitXY"
+                                android:src="@mipmap/ic_launcher" />
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <ImageView
+                                android:id="@+id/rn710qc33p9f"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_marginTop="1dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/doneall" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/r0q9umd2ck57"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="35dp"
+                            android:layout_marginBottom="15dp"
+                            android:orientation="vertical"
+                            android:paddingHorizontal="28dp"
+                            android:paddingVertical="14dp">
+
+                            <TextView
+                                android:id="@+id/rnpxyilgdskh"
+                                android:layout_width="241dp"
+                                android:layout_height="wrap_content"
+                                android:text="Name"
+                                android:textColor="#FFFFFF"
+                                android:textSize="20sp" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="email"
+                                android:id="@+id/emailid"
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/rrkwv929ffeo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="130dp"
+                            android:layout_marginBottom="50dp"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical"
+                            android:paddingVertical="13dp">
+
+                            <Button
+                                android:id="@+id/uploadrec"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="upload recipe" />
+                        </LinearLayout>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/saya"
+                            android:layout_width="match_parent"
+                            android:layout_height="353dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

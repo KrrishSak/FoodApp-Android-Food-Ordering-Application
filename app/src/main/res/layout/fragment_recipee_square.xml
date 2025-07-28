@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".recipee_square">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/ray05i4hrh8"
+        android:layout_width="182dp"
+        android:layout_height="242dp"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="255dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:paddingLeft="25dp">
+
+        <LinearLayout
+            android:id="@+id/r18t607anergj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="8dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/rcpox0gw90np"
+                android:layout_width="22dp"
+                android:layout_height="19dp"
+                android:layout_marginTop="12dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_launcher" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/rwcdd52hwax"
+
+                android:layout_width="99dp"
+                android:layout_height="87dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_launcher" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/r82p9d32hkok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Breakfast"
+            android:textColor="#2958FF"
+            android:textSize="9.670330047607422sp" />
+
+        <TextView
+            android:id="@+id/rhwebygg0haa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="17dp"
+            android:text="Toast with Berries"
+            android:textColor="#FFFFFF"
+            android:textSize="9.670330047607422sp" />
+
+        <LinearLayout
+            android:id="@+id/rsyrfdotma6s"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="114dp"
+            android:layout_marginBottom="21dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/rm9l03xge1i"
+                android:layout_width="18dp"
+                android:layout_height="16dp"
+                android:layout_marginEnd="7dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/rxhkc5148shd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="10:03"
+                android:textColor="#FF6B00"
+                android:textSize="9.670330047607422sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rh2dnxmv74wd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="66dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/r28mb56d9tcc"
+                android:layout_width="16dp"
+                android:layout_height="15dp"
+                android:layout_marginEnd="3dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/r2pef2pb41q8"
+                android:layout_width="16dp"
+                android:layout_height="15dp"
+                android:layout_marginEnd="2dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/r646vaw9oubp"
+                android:layout_width="16dp"
+                android:layout_height="15dp"
+                android:layout_marginEnd="3dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/rpalg5i1bwt"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginEnd="2dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/rxdryd29ioq"
+                android:layout_width="17dp"
+                android:layout_height="16dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_launcher" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
